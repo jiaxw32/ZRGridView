@@ -3,13 +3,14 @@ ZRGridView是一个类似Excel表格的组件，用于展示多行多列的表�
 
 ![](https://github.com/jiaxw32/ZRGridView/blob/master/ZRGridView/ZRGridView/gridview.gif)
 
-# 特性
+# 主要特性
   * 支持水平、垂直方向滚动
   * 表格表头悬浮
   * 自定义表头、行高度及每列宽度
   * 单元格颜色可以自定义，格网显示控制
+  * 行、列点击事件响应
 
-# 使用
+# 使用方式
 
   ```
   ZRGridViewLayoutAndStyle *gridViewLayout = [[ZRGridViewLayoutAndStyle alloc] init];
@@ -23,4 +24,3 @@ ZRGridView是一个类似Excel表格的组件，用于展示多行多列的表�
   gridView.gridViewDataSource = self;
   [self.view addSubview:gridView]; 
   ```
-
