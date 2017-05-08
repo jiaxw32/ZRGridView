@@ -18,6 +18,7 @@
 		E2B3AFFD1EC00BA900AC6BCF /* ZRGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AFF71EC00BA900AC6BCF /* ZRGridViewCell.m */; };
 		E2B3AFFE1EC00BA900AC6BCF /* ZRGridViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AFF91EC00BA900AC6BCF /* ZRGridViewHeader.m */; };
 		E2B3AFFF1EC00BA900AC6BCF /* ZRGridViewLayoutAndStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3AFFB1EC00BA900AC6BCF /* ZRGridViewLayoutAndStyle.m */; };
+		E2B3B0011EC012F200AC6BCF /* gridview.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2B3B0001EC012F200AC6BCF /* gridview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E2B3AFF91EC00BA900AC6BCF /* ZRGridViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRGridViewHeader.m; sourceTree = "<group>"; };
 		E2B3AFFA1EC00BA900AC6BCF /* ZRGridViewLayoutAndStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRGridViewLayoutAndStyle.h; sourceTree = "<group>"; };
 		E2B3AFFB1EC00BA900AC6BCF /* ZRGridViewLayoutAndStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRGridViewLayoutAndStyle.m; sourceTree = "<group>"; };
+		E2B3B0001EC012F200AC6BCF /* gridview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gridview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		E2B3AFCE1EC00B7600AC6BCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2B3B0001EC012F200AC6BCF /* gridview.gif */,
 				E2B3AFCF1EC00B7600AC6BCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B3AFDE1EC00B7600AC6BCF /* LaunchScreen.storyboard in Resources */,
+				E2B3B0011EC012F200AC6BCF /* gridview.gif in Resources */,
 				E2B3AFDB1EC00B7600AC6BCF /* Assets.xcassets in Resources */,
 				E2B3AFD91EC00B7600AC6BCF /* Main.storyboard in Resources */,
 			);
@@ -454,6 +458,7 @@
 				E2B3AFEF1EC00B7600AC6BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B3AFF01EC00B7600AC6BCF /* Build configuration list for PBXNativeTarget "ZRGridViewTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +467,7 @@
 				E2B3AFF21EC00B7600AC6BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
